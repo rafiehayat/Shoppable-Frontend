@@ -106,8 +106,8 @@ export default function Order() {
                                 item.products.map((item,index) =>{
                                      return  <tr key={index}>
                                      <td>
-                                        <a href={`/${item.pic}`} target='_blank' rel= 'noreferrer'>
-                                            <img src={`/${item.pic}`} height="80px" width="80px" className='rounded-1' alt="" />
+                                        <a href={`${apiLink}/${item.pic}`} target='_blank' rel= 'noreferrer'>
+                                            <img src={`${apiLink}/${item.pic}`} height="80px" width="80px" className='rounded-1' alt="" />
                                         </a>
                                      </td>
                                      <td>{item.name}</td>
